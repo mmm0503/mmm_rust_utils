@@ -1,3 +1,6 @@
+mod server;
+
 fn main() {
-    println!("Hello, world!");
+    server::open_server();
+    println!("end");
 }
